@@ -2,13 +2,13 @@ package com.example.secondproject.domain;
 
 import java.time.LocalDateTime;
 
-import org.apache.ibatis.type.Alias;
-
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 @Getter
 @Setter
+@ToString
 public class BoardDTO {
 
 	/** 번호 (PK) */
